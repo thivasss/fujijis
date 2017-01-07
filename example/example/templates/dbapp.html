@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ test }}.</h2>
+<h3>{{ message }}</h3>
+
+<p>This is the DB application of SCBNS. Use it with care and love!</p>
+
+<form action="." method="POST">
+    <input type="text" name="text">
+    <input type="submit" name="my-form" value="Send">
+</form>
+
+
+{% endblock %}
